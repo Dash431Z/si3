@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    background-color: black;
+    color: black;
+    font-family: 'Baskerville Old Face', 'Times New Roman', 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 14pt;
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: table;
+}
+.nav {
+    width: 100%;
+    background-color: midnightblue;
+    height: 45px;
+
+}
+
+.nav-lista{
+    display: flex;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 15px;
+    margin-left: 10px;
+    line-height: 45px;
+}
+
+.link-item{
+    text-decoration : none;
+    color: white;
+}
+
+.header{
+    width: 100%;
+    height: 240px;
+    background-color: darkblue;
+    font: Times New Roman;
+    text-align: center;
+    color: white;
+    line-height: 150px;
+}
+
+.footer{
+    width: 100%;
+    height: 120px;
+    background-color: teal;
+    color: black;
+    text-align: center;
+    padding-top: 1%;
+
+}
+
+.lista{
+    display: table;
+    width: 100%;
+    height:300px;
+    background-color: mediumblue;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.viveres{
+    display: table;
+    width: 100%;
+    height:300px;
+    background-color: blue;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.charcar{
+    display: table;
+    width: 100%;
+    height:300px;
+    background-color: dodgerblue;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.ohno{
+    display: table;
+    width: 100%;
+    height:300px;
+    background-color: deepskyblue;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.modificar{
+    display: table;
+    width: 100%;
+    height:300px;
+    background-color: cyan;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.limpieza{
+    display: table;
+    width: 100%;
+    height:300px;
+    background-color: turquoise;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.postre{
+    display: table;
+    width: 100%;
+    height:300px;
+    background-color: lightseagreen;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.caja{
+    display: table;
+    width: 100%;
+    height:300px;
+    background-color: darkcyan;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.arriba{
+    width: 60px;
+    height: 60px;
+    background-color: seagreen;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 100%;
+    z-index: 99;
+    position: fixed;
+    right: 10px;
+    bottom: 30px;
+}
+
+.fecha{
+    text-decoration: none;
+    color: white;
+}
+
+.social{
+    text-decoration: none;
+}
